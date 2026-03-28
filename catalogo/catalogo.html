@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="catalogo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-left">
+            <a href="../index.html"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                alt="Netflix"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" data-filter="all" class="active">Início</a></li>
+                    <li><a href="#" data-filter="series">Séries</a></li>
+                    <li><a href="#" data-filter="filmes">Filmes</a></li>
+                    <li><a href="#" data-filter="jogos">Jogos</a></li>
+                    <li><a href="#" data-filter="bombando">Bombando</a></li>
+                    <li><a href="#" data-filter="lista">Minha lista</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar-right">
+            <i class="fas fa-search icon"></i>
+            <a href="../index.html" class="kids-link">Seu nome</a>
+            <div class="nav-notification">
+                <i class="fas fa-bell icon"></i>
+                <span class="notification-badge">42</span>
+            </div>
+            <div class="profile-menu">
+                <img class="profile-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                    alt="Profile">
+                <i class="fas fa-caret-down icon profile-dropdown-toggle" style="font-size: 14px; margin-left: 5px;"></i>
+                <ul class="profile-dropdown">
+                    <li><a href="../index.html">Sair do perfil</a></li>
+                    <li><a href="../index.html">Gerenciar perfis</a></li>
+                    <li><a href="../index.html">Conta</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sliders Container -->
+    <main class="sliders-container" id="main-content">
+        <!-- Javascript will inject the rows here -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Imersão Alura AI</p>
+            <ul class="footer-links">
+                <li>Perguntas frequentes</li>
+                <li>Centro de ajuda</li>
+                <li>Conta</li>
+                <li>Imprensa</li>
+                <li>Relações com investidores</li>
+                <li>Carreiras</li>
+                <li>Formas de assistir</li>
+                <li>Termos de uso</li>
+                <li>Privacidade</li>
+                <li>Preferências de cookies</li>
+                <li>Informações corporativas</li>
+                <li>Entre em contato</li>
+                <li>Teste de velocidade</li>
+                <li>Avisos legais</li>
+                <li>Só na Netflix</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
